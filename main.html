@@ -4,51 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Tables and Media</title>
+
+	<style>
+		table{
+			border-collapse:collapse;
+		}
+		
+	</style>
 </head>
 <body>
 
     <h2>Student Information</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Alice</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Bob</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Charlie</td>
-            </tr>
-        </tbody>
-    </table>
+    <table border="1">
+        
+    <thead>
+      <tr>
+        <th>Roll Number</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Riya</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Aman</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Neha</td>
+      </tr>
+    </tbody>
+  </table>
 
-    <h3>List of medias</h3>
-    <ol>
-        <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
-        </li>
-        <li>
-            <video controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </li>
-        <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                Your browser does not support the audio tag.
-            </audio>
-        </li>
-    </ol>
+  <!-- Heading between table and media list -->
+  <h2>List of medias</h2>
+
+  <!-- Ordered list of media items -->
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Sample Image">
+    </li>
+    <li>
+      <video width="320" height="240" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </li>
+  </ol>
 
 </body>
 </html>
